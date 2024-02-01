@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28021894-ab2a-4bd0-8c17-fdc90259e166" name="Default Changelist" comment="pom version update">
+      <change afterPath="$PROJECT_DIR$/patrones-common/patrones-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patrones-mapper/patrones-mapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patrones-model/patrones-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patrones-service/patrones-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patrones-web/patrones-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/enums/ErrorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/enums/ErrorEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/exception/AbstractException.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/exception/AbstractException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/exception/ParamInvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/exception/ParamInvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/exception/SessionInvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/exception/SessionInvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/util/BeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/util/BeanUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/validation/MyValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/validation/MyValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-common/src/main/java/org/lucas/noel/patrones/common/validation/ValidationMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-common/src/main/java/org/lucas/noel/patrones/common/validation/ValidationMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-mapper/src/main/java/org/lucas/noel/patrones/mapper/AppInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-mapper/src/main/java/org/lucas/noel/patrones/mapper/AppInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/src/main/java/org/lucas/noel/patrones/model/AbstractModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/src/main/java/org/lucas/noel/patrones/model/AbstractModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/src/main/java/org/lucas/noel/patrones/model/domain/AppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/src/main/java/org/lucas/noel/patrones/model/domain/AppInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/src/main/java/org/lucas/noel/patrones/model/dto/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/src/main/java/org/lucas/noel/patrones/model/dto/AbstractDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/src/main/java/org/lucas/noel/patrones/model/dto/request/AppInfoRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/src/main/java/org/lucas/noel/patrones/model/dto/request/AppInfoRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/src/main/java/org/lucas/noel/patrones/model/dto/request/PageRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/src/main/java/org/lucas/noel/patrones/model/dto/request/PageRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/src/main/java/org/lucas/noel/patrones/model/dto/response/PageResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/src/main/java/org/lucas/noel/patrones/model/dto/response/PageResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-model/src/main/java/org/lucas/noel/patrones/model/dto/response/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-model/src/main/java/org/lucas/noel/patrones/model/dto/response/ResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-service/src/main/java/org/lucas/noel/patrones/service/AppInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-service/src/main/java/org/lucas/noel/patrones/service/AppInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/java/org/lucas/noel/patrones/ApplicationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/java/org/lucas/noel/patrones/ApplicationBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/java/org/lucas/noel/patrones/web/aspect/GlobalExceptionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/java/org/lucas/noel/patrones/web/aspect/GlobalExceptionAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/java/org/lucas/noel/patrones/web/aspect/RequestParamAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/java/org/lucas/noel/patrones/web/aspect/RequestParamAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/java/org/lucas/noel/patrones/web/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/java/org/lucas/noel/patrones/web/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/java/org/lucas/noel/patrones/web/config/FastJsonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/java/org/lucas/noel/patrones/web/config/FastJsonConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/java/org/lucas/noel/patrones/web/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/java/org/lucas/noel/patrones/web/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/java/org/lucas/noel/patrones/web/controller/AppInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/java/org/lucas/noel/patrones/web/controller/AppInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetype-web/src/main/resources/config/logging-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patrones-web/src/main/resources/config/logging-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master-multiple-modules" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="ossrh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UuwdZWvX4V15p6P9ONLGv8s1H6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="/**&#10;     * Puts a template into the loader. The name can contain slashes to denote&#10;     * logical directory structure, but must not start with a slash. If the &#10;     * method is called multiple times for the same name and with different&#10;     * last modified time, the configuration's template cache will reload the &#10;     * template according to its own refresh settings (note that if the refresh &#10;     * is disabled in the template cache, the template will not be reloaded).&#10;     * Also, since the cache uses lastModified to trigger reloads, calling the&#10;     * method with different source and identical timestamp won't trigger&#10;     * reloading." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationBootstrap (1)">
+    <configuration name="ApplicationBootstrap (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="patrones-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.lucas.noel.patrones.ApplicationBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="patrones-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ApplicationBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApplicationBootstrap (1)" />
+      <item itemvalue="Spring Boot.ApplicationBootstrap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApplicationBootstrap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28021894-ab2a-4bd0-8c17-fdc90259e166" name="Default Changelist" comment="" />
+      <created>1576219875598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576219875598</updated>
+      <workItem from="1576219881435" duration="968000" />
+      <workItem from="1576485740976" duration="721000" />
+      <workItem from="1576578036894" duration="666000" />
+      <workItem from="1576639290325" duration="186000" />
+      <workItem from="1576739567476" duration="843000" />
+      <workItem from="1576827755876" duration="1272000" />
+      <workItem from="1576831703350" duration="47000" />
+      <workItem from="1576831792604" duration="7477000" />
+      <workItem from="1576891915452" duration="12185000" />
+      <workItem from="1577064435204" duration="12577000" />
+      <workItem from="1577151058038" duration="949000" />
+      <workItem from="1577152544300" duration="8504000" />
+      <workItem from="1577167628364" duration="569000" />
+    </task>
+    <task id="LOCAL-00001" summary="internationalization">
+      <created>1576840880595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576840880595</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pom version update">
+      <created>1576916216153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576916216153</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="internationalization" />
+    <MESSAGE value="pom version update" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom version update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1848" y="139" width="1180" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576832824365">
+      <screen x="1424" y="-28" width="1920" height="1057" />
+    </state>
+    <state x="1848" y="139" width="1180" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576832824365" />
+    <state x="147" y="23" key="CommitChangelistDialog2" timestamp="1577155475194">
+      <screen x="0" y="23" width="1424" height="733" />
+    </state>
+    <state x="147" y="1" key="CommitChangelistDialog2/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1576220484007" />
+    <state x="1622" y="-50" key="CommitChangelistDialog2/0.0.1424.802/1424.-51.1920.1080@1424.-51.1920.1080" timestamp="1576827817934" />
+    <state x="147" y="23" key="CommitChangelistDialog2/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577155475194" />
+    <state x="1622" y="-27" key="CommitChangelistDialog2/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576916215942" />
+    <state x="131" y="70" key="DiffContextDialog" timestamp="1577155471713">
+      <screen x="0" y="23" width="1424" height="733" />
+    </state>
+    <state x="1601" y="18" key="DiffContextDialog/0.0.1424.802/1424.-51.1920.1080@1424.-51.1920.1080" timestamp="1576827815993" />
+    <state x="131" y="70" key="DiffContextDialog/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577155471713" />
+    <state x="1601" y="40" key="DiffContextDialog/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576916197988" />
+    <state x="2171" y="239" key="FileChooserDialogImpl" timestamp="1576840435401">
+      <screen x="1424" y="-28" width="1920" height="1057" />
+    </state>
+    <state x="2171" y="239" key="FileChooserDialogImpl/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576840435401" />
+    <state width="1382" height="340" key="GridCell.Tab.0.bottom" timestamp="1577168163711">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.0.bottom/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622779" />
+    <state width="1382" height="340" key="GridCell.Tab.0.bottom/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163711" />
+    <state width="1209" height="340" key="GridCell.Tab.0.bottom/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340893" />
+    <state width="1209" height="340" key="GridCell.Tab.0.bottom/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661301" />
+    <state width="1382" height="340" key="GridCell.Tab.0.center" timestamp="1577168163709">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.0.center/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622777" />
+    <state width="1382" height="340" key="GridCell.Tab.0.center/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163709" />
+    <state width="1209" height="340" key="GridCell.Tab.0.center/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340891" />
+    <state width="1209" height="340" key="GridCell.Tab.0.center/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661300" />
+    <state width="1382" height="340" key="GridCell.Tab.0.left" timestamp="1577168163707">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.0.left/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622776" />
+    <state width="1382" height="340" key="GridCell.Tab.0.left/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163707" />
+    <state width="1209" height="340" key="GridCell.Tab.0.left/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340891" />
+    <state width="1209" height="340" key="GridCell.Tab.0.left/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661299" />
+    <state width="1382" height="340" key="GridCell.Tab.0.right" timestamp="1577168163710">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.0.right/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622778" />
+    <state width="1382" height="340" key="GridCell.Tab.0.right/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163710" />
+    <state width="1209" height="340" key="GridCell.Tab.0.right/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340892" />
+    <state width="1209" height="340" key="GridCell.Tab.0.right/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661300" />
+    <state width="1382" height="340" key="GridCell.Tab.1.bottom" timestamp="1577168163716">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.1.bottom/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622782" />
+    <state width="1382" height="340" key="GridCell.Tab.1.bottom/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163716" />
+    <state width="1209" height="340" key="GridCell.Tab.1.bottom/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340894" />
+    <state width="1209" height="340" key="GridCell.Tab.1.bottom/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661115" />
+    <state width="1382" height="340" key="GridCell.Tab.1.center" timestamp="1577168163714">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.1.center/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622781" />
+    <state width="1382" height="340" key="GridCell.Tab.1.center/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163714" />
+    <state width="1209" height="340" key="GridCell.Tab.1.center/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340894" />
+    <state width="1209" height="340" key="GridCell.Tab.1.center/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661114" />
+    <state width="1382" height="340" key="GridCell.Tab.1.left" timestamp="1577168163712">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.1.left/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622780" />
+    <state width="1382" height="340" key="GridCell.Tab.1.left/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163712" />
+    <state width="1209" height="340" key="GridCell.Tab.1.left/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340893" />
+    <state width="1209" height="340" key="GridCell.Tab.1.left/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661113" />
+    <state width="1382" height="340" key="GridCell.Tab.1.right" timestamp="1577168163715">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.1.right/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622781" />
+    <state width="1382" height="340" key="GridCell.Tab.1.right/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163715" />
+    <state width="1209" height="340" key="GridCell.Tab.1.right/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340894" />
+    <state width="1209" height="340" key="GridCell.Tab.1.right/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661114" />
+    <state width="1382" height="340" key="GridCell.Tab.2.bottom" timestamp="1577168163720">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.2.bottom/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622785" />
+    <state width="1382" height="340" key="GridCell.Tab.2.bottom/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163720" />
+    <state width="1209" height="340" key="GridCell.Tab.2.bottom/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340896" />
+    <state width="1209" height="340" key="GridCell.Tab.2.bottom/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661116" />
+    <state width="1382" height="340" key="GridCell.Tab.2.center" timestamp="1577168163718">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.2.center/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622783" />
+    <state width="1382" height="340" key="GridCell.Tab.2.center/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163718" />
+    <state width="1209" height="340" key="GridCell.Tab.2.center/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340895" />
+    <state width="1209" height="340" key="GridCell.Tab.2.center/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661116" />
+    <state width="1382" height="340" key="GridCell.Tab.2.left" timestamp="1577168163717">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.2.left/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622783" />
+    <state width="1382" height="340" key="GridCell.Tab.2.left/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163717" />
+    <state width="1209" height="340" key="GridCell.Tab.2.left/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340895" />
+    <state width="1209" height="340" key="GridCell.Tab.2.left/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661115" />
+    <state width="1382" height="340" key="GridCell.Tab.2.right" timestamp="1577168163719">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state width="1382" height="340" key="GridCell.Tab.2.right/0.0.1424.802/1424.-28.1920.1057@0.0.1424.802" timestamp="1577167622784" />
+    <state width="1382" height="340" key="GridCell.Tab.2.right/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168163719" />
+    <state width="1209" height="340" key="GridCell.Tab.2.right/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156340896" />
+    <state width="1209" height="340" key="GridCell.Tab.2.right/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1577160661116" />
+    <state x="2097" y="200" key="MultipleFileMergeDialog" timestamp="1576840981846">
+      <screen x="1424" y="-28" width="1920" height="1057" />
+    </state>
+    <state x="2097" y="200" key="MultipleFileMergeDialog/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576840981846" />
+    <state x="221" y="0" width="1154" height="722" key="SettingsEditor" timestamp="1577167834215">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="221" y="0" key="SettingsEditor/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577167834215" />
+    <state x="1550" y="25" width="1154" height="722" key="SettingsEditor/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576915766398" />
+    <state x="1984" y="206" key="Vcs.Push.Dialog.v2" timestamp="1576916218608">
+      <screen x="1424" y="-28" width="1920" height="1057" />
+    </state>
+    <state x="1984" y="206" key="Vcs.Push.Dialog.v2/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576916218608" />
+    <state x="2173" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576894415697">
+      <screen x="1424" y="-28" width="1920" height="1057" />
+    </state>
+    <state x="2173" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576894415697" />
+    <state x="394" y="162" width="816" height="591" key="find.popup" timestamp="1577168015086">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="394" y="162" width="816" height="591" key="find.popup/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1577168015086" />
+    <state x="394" y="171" width="816" height="540" key="find.popup/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577156247078" />
+    <state x="2050" y="239" width="816" height="540" key="find.popup/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576916117837" />
+    <state x="2062" y="276" key="git4idea.merge.GitPullDialog" timestamp="1576894354835">
+      <screen x="1424" y="-28" width="1920" height="1057" />
+    </state>
+    <state x="2062" y="276" key="git4idea.merge.GitPullDialog/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576894354835" />
+    <state x="177" y="133" key="new project wizard" timestamp="1577158254226">
+      <screen x="0" y="23" width="1424" height="733" />
+    </state>
+    <state x="348" y="98" key="new project wizard/0.0.1424.802/1424.-51.1920.1080@0.0.1424.802" timestamp="1576485981389" />
+    <state x="177" y="133" key="new project wizard/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577158254226" />
+    <state x="1662" y="130" key="new project wizard/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576837895113" />
+    <state x="463" y="130" width="672" height="469" key="search.everywhere.popup" timestamp="1577101966116">
+      <screen x="0" y="23" width="1424" height="733" />
+    </state>
+    <state x="463" y="130" width="672" height="469" key="search.everywhere.popup/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577101966116" />
+    <state x="2048" y="127" width="672" height="676" key="search.everywhere.popup/0.23.1424.733/1424.-28.1920.1057@1424.-28.1920.1057" timestamp="1576893951693" />
+    <state x="1955" y="70" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577152955840">
+      <screen x="1424" y="-28" width="1920" height="1057" />
+    </state>
+    <state x="1955" y="70" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1424.733/1424.-28.1920.1057@0.23.1424.733" timestamp="1577152955840" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="clazz" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

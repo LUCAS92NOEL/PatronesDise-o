@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/patrones.iml" filepath="$PROJECT_DIR$/patrones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patrones-common/patrones-common.iml" filepath="$PROJECT_DIR$/patrones-common/patrones-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patrones-mapper/patrones-mapper.iml" filepath="$PROJECT_DIR$/patrones-mapper/patrones-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patrones-model/patrones-model.iml" filepath="$PROJECT_DIR$/patrones-model/patrones-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patrones-service/patrones-service.iml" filepath="$PROJECT_DIR$/patrones-service/patrones-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patrones-web/patrones-web.iml" filepath="$PROJECT_DIR$/patrones-web/patrones-web.iml" />
+    </modules>
+  </component>
+</project>
