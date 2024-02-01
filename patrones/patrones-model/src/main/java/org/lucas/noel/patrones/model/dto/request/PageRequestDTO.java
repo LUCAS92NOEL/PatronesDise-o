@@ -45,4 +45,22 @@ public class PageRequestDTO extends AbstractDTO {
     public boolean validate() {
         return false;
     }
+
+	public long getPageNum() {
+		return pageNum;
+	}
+
+	public void setPageNum(long pageNum) {
+		this.pageNum = pageNum;
+	}
+
+	public long getPageSize() {
+		return pageSize;
+	}
+
+	public void setPageSize(long pageSize) {
+		this.pageSize = pageSize;
+	}
+    
+    
 }

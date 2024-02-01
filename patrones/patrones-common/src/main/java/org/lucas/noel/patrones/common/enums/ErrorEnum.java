@@ -72,4 +72,11 @@ public enum ErrorEnum {
         return msg + "." + this.name() +  ", code:" + code;
     }
 
+	public int getCode() {
+		return code;
+	}
+
+	public String getMsg() {
+		return msg;
+	}
 }
